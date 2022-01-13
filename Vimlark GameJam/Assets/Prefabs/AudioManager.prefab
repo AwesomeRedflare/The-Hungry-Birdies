@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7697549713893606480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7697549713893606482}
+  - component: {fileID: 7697549713893606483}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7697549713893606482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697549713893606480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7697549713893606483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697549713893606480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0237517d3eccee440b0fe608227abd31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Music
+    clip: {fileID: 8300000, guid: dcaed4a50dba9fa41b48d80038657532, type: 3}
+    volume: 0.558
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: bird chirp
+    clip: {fileID: 8300000, guid: 60c5f15f189818c4dbd54035449c8bc9, type: 3}
+    volume: 0.443
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: flap
+    clip: {fileID: 8300000, guid: 8e86e40bde48d774b9f0f01944a889b0, type: 3}
+    volume: 0.443
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemy hit
+    clip: {fileID: 8300000, guid: 0bf18511d6fb50442a506894ec5c5c8f, type: 3}
+    volume: 0.855
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: baby chirps
+    clip: {fileID: 8300000, guid: 5ddcdfe9a30d4444b9ff75981bd51e4b, type: 3}
+    volume: 0.443
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: button
+    clip: {fileID: 8300000, guid: 3bfe8a2b8de25ad4d934de74c87816ae, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: deep caw
+    clip: {fileID: 8300000, guid: 43baf264bfdb81f46b4b2323aee44453, type: 3}
+    volume: 0.443
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
